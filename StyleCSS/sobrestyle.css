@@ -1,0 +1,139 @@
+html{
+    background-image: url("toquio.jpg"); /*deixar uma imagem de fundo, fazendo 
+    as divs se mecherem sem mecher na imagem de fundo.*/
+    background-position: center top; /*centraliza a imagem*/ 
+    background-size: cover; /*A imagem é renderizada, preservando sua proporção*/
+}
+
+.inicio{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.cabeçalho{
+    width: 100%;
+    height: 90px;
+    background-color: black;
+    border-bottom: #EE0000 5px solid;
+    border-radius: 25px 25px;
+}
+
+.navegador ul li {
+    display: inline-block;
+}
+
+.navegador a{
+    text-decoration: none;
+    color: whitesmoke;
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+} 
+
+.navegador{
+    float:right;
+}
+
+.titulo{
+    float: left;
+    color: #EE0000;
+    padding: 35px;
+    margin: 0px;
+}
+
+ul li {
+    display: inline-block;
+    border-radius: 4px;
+    margin: 0px;
+  
+    border: none;
+    color: red;
+    text-align: center;
+    font-size: 28px;
+    padding: 20px;
+    width: 200px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+  }
+  
+ul li {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+    margin: 0px;
+}
+
+.img1{
+    background-image: url("./sobre1.png");
+    height: 156px; /*Altura*/
+    width: 155px; /*Largura*/
+    margin-left: 70px; /*Fas a margem da esquerda aumentar e ele se posicionar
+    para a direita*/
+    margin-top: 180px; /*Anulou a margem de cima*/
+    float: left;
+}
+
+.img2{
+    background-image: url("./sobre2.png");
+    height: 156px;
+    width: 140px;
+    margin-left: 70px;
+    margin-top: 950px;
+    float: right;
+    position: absolute
+}
+
+.img3{
+    background-image: url("./sobre3.png");
+    height: 156px;
+    width: 153px;
+    margin-left: 70px; 
+    margin-top: 110px;
+    float: left;
+}
+
+.conteudo1{
+    color: white; /*Muda a cor de todas as letras dentro dessa seção de divs*/
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode',
+     Geneva, Verdana, sans-serif; /*Muda a fonte da letra*/
+    background-color: black;
+    height: 420px;
+    width: 1000px;
+    margin-left: 80px;
+    margin-top: 50px; /*Aumentou a margem de cima fazendo com que a div se 
+    posicionasse ara baixo*/
+    text-align: left;
+    float: left;
+    border-radius: 25px 25px;
+}
+
+.conteudo2{
+    color: white; /*Muda a cor de todas as letras dentro dessa seção de divs*/
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode',
+     Geneva, Verdana, sans-serif; /*Muda a fonte da letra*/
+    background-color: black;
+    height: 300px;
+    width: 1000px;
+    margin-left: 20px;
+    margin-top: 50px;
+    float: left;
+    border-radius: 25px 25px;
+}
+
+.conteudo3{
+    color: white; /*Muda a cor de todas as letras dentro dessa seção de divs*/
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode',
+     Geneva, Verdana, sans-serif; /*Muda a fonte da letra*/
+    background-color: black;
+    height: 300px;
+    width: 1000px;
+    margin-left: 20px;
+    margin-top: 50px;
+    float: right;
+    border-radius: 25px 25px;
+}
+
+h1{ /*Mudou apenas a cor dos títulos*/
+    color: #EE0000;   
+}
+

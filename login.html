@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Login</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+
+<body>
+    <div class="cabeçalho">
+        <div class="inicio">
+            <div>
+                <h1 class="titulo">NihonClass</h1>
+            </div>
+            <div class="navegador">
+                <ul>
+                    <li><a href="index.html">INÍCIO</a></li>
+                    <li><a href="sobre.html">SOBRE</a></li>
+                    <li><a href="alfabetos.html">ALFABETOS</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="login_curso">
+        <br>
+        <br>
+        <h1>Login</h1>
+        <input placeholder="E-mail" id="valor_login"> <br>
+        <input placeholder="Senha" id="valor_senha"> <br>
+        <br>
+        <button onclick="entrar()" class="botao1"><a href="aulas.html">Entrar</a></button> <br>
+        <br>
+        <span><b>Caso ainda não seja aluno clique em</b></span>
+        <button class="botao2"><a href="cadastro.html">Cadastre-se</a></button>
+    </div>
+    <div class="img_login"></div>
+</body>
+
+</html>
+<script>
+    function entrar() {
+        var login = valor_login.value == "aidimin";
+        var senha = valor_senha.value == "seinha";
+
+        var resultado = '';
+
+        if (login && senha) {
+            resultado = '<span style="color: blue">Usuário autenticado com sucesso!</span>'
+        } else {
+            if (!login) {
+                resultado = 'Seu login está inválido!<br>';
+            }
+            if (!senha) {
+                resultado += 'Sua senha está inválida!';
+                alert('Entre em contato com o suporte para recuperar sua senha');
+            }
+        }
+        div_resultado.innerHTML = resultado;
+    }
+</script>

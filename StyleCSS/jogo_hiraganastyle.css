@@ -1,0 +1,467 @@
+html{
+    background-image: url("toquio.jpg"); /*deixar uma imagem de fundo, fazendo 
+    as divs se mecherem sem mecher na imagem de fundo.*/
+    background-position: center top; /*centraliza a imagem*/
+    background-size: cover; /*A imagem é renderizada, preservando sua proporção*/
+}
+
+#corpo1{
+    height: 180px;
+    width: 500px;
+    margin-top: 100px;
+    margin-left: 415px;
+    text-align: center;
+    display: block;
+    border-radius: 25px 25px;
+}
+
+#corpo2{
+    height: 180px;
+    width: 500px;
+    margin-top: 100px;
+    margin-left: 415px;
+    text-align: center;
+    display: none;
+    border-radius: 25px 25px;
+}
+
+#corpo3{
+    height: 180px;
+    width: 500px;
+    margin-top: 100px;
+    margin-left: 415px;
+    text-align: center;
+    display: none;
+}
+
+#corpo4{
+    height: 180px;
+    width: 500px;
+    margin-top: 100px;
+    margin-left: 415px;
+    text-align: center;
+    display: none;
+}
+
+#corpo5{
+    height: 180px;
+    width: 500px;
+    margin-top: 100px;
+    margin-left: 415px;
+    text-align: center;
+    display: none;
+}
+#corpo6{
+    height: 180px;
+    width: 500px;
+    margin-top: 100px;
+    margin-left: 415px;
+    text-align: center;
+    display: none;
+}
+
+#corpo7{
+    height: 180px;
+    width: 500px;
+    margin-top: 100px;
+    margin-left: 415px;
+    text-align: center;
+    display: none;
+}
+
+#corpo8{
+    height: 180px;
+    width: 500px;
+    margin-top: 100px;
+    margin-left: 415px;
+    text-align: center;
+    display: none;
+}
+
+#corpo9{
+    height: 180px;
+    width: 500px;
+    margin-top: 100px;
+    margin-left: 415px;
+    text-align: center;
+    display: none;
+}
+
+#corpo10{
+    height: 180px;
+    width: 500px;
+    margin-top: 100px;
+    margin-left: 415px;
+    text-align: center;
+    display: none;
+}
+
+#corpo11{
+    height: 180px;
+    width: 500px;
+    margin-top: 100px;
+    margin-left: 415px;
+    text-align: center;
+    display: none;
+}
+
+#corpo12{
+    height: 180px;
+    width: 500px;
+    margin-top: 100px;
+    margin-left: 415px;
+    text-align: center;
+    display: none;
+}
+
+#corpo13{
+    height: 180px;
+    width: 500px;
+    margin-top: 100px;
+    margin-left: 415px;
+    text-align: center;
+    display: none;
+}
+
+#corpo14{
+    height: 180px;
+    width: 500px;
+    margin-top: 100px;
+    margin-left: 415px;
+    text-align: center;
+    display: none;
+}
+
+#corpo15{
+    height: 180px;
+    width: 500px;
+    margin-top: 100px;
+    margin-left: 415px;
+    text-align: center;
+    display: none;
+}
+
+#corpo16{
+    height: 180px;
+    width: 500px;
+    margin-top: 100px;
+    margin-left: 415px;
+    text-align: center;
+    display: none;
+}
+
+#corpo17{
+    height: 180px;
+    width: 500px;
+    margin-top: 100px;
+    margin-left: 415px;
+    text-align: center;
+    display: none;
+}
+
+#corpo18{
+    height: 180px;
+    width: 500px;
+    margin-top: 100px;
+    margin-left: 415px;
+    text-align: center;
+    display: none;
+}
+
+#corpo19{
+    height: 180px;
+    width: 500px;
+    margin-top: 100px;
+    margin-left: 415px;
+    text-align: center;
+    display: none;
+}
+
+#corpo20{
+    height: 180px;
+    width: 500px;
+    margin-top: 100px;
+    margin-left: 415px;
+    text-align: center;
+    display: none;
+}
+
+#corpo21{
+    height: 180px;
+    width: 500px;
+    margin-top: 100px;
+    margin-left: 415px;
+    text-align: center;
+    display: none;
+}
+
+#corpo22{
+    height: 180px;
+    width: 500px;
+    margin-top: 100px;
+    margin-left: 415px;
+    text-align: center;
+    display: none;
+}
+
+#corpo23{
+    height: 180px;
+    width: 500px;
+    margin-top: 100px;
+    margin-left: 415px;
+    text-align: center;
+    display: none;
+}
+
+#corpo24{
+    height: 180px;
+    width: 500px;
+    margin-top: 100px;
+    margin-left: 415px;
+    text-align: center;
+    display: none;
+}
+
+#corpo25{
+    height: 180px;
+    width: 500px;
+    margin-top: 100px;
+    margin-left: 415px;
+    text-align: center;
+    display: none;
+}
+
+#corpo26{
+    height: 180px;
+    width: 500px;
+    margin-top: 100px;
+    margin-left: 415px;
+    text-align: center;
+    display: none;
+}
+
+#corpo27{
+    height: 180px;
+    width: 500px;
+    margin-top: 100px;
+    margin-left: 415px;
+    text-align: center;
+    display: none;
+}
+
+#corpo28{
+    height: 180px;
+    width: 500px;
+    margin-top: 100px;
+    margin-left: 415px;
+    text-align: center;
+    display: none;
+}
+
+#corpo29{
+    height: 180px;
+    width: 500px;
+    margin-top: 100px;
+    margin-left: 415px;
+    text-align: center;
+    display: none;
+}
+
+#corpo30{
+    height: 180px;
+    width: 500px;
+    margin-top: 100px;
+    margin-left: 415px;
+    text-align: center;
+    display: none;
+}
+
+#corpo31{
+    height: 180px;
+    width: 500px;
+    margin-top: 100px;
+    margin-left: 415px;
+    text-align: center;
+    display: none;
+}
+
+#corpo32{
+    height: 180px;
+    width: 500px;
+    margin-top: 100px;
+    margin-left: 415px;
+    text-align: center;
+    display: none;
+}
+
+#corpo33{
+    height: 180px;
+    width: 500px;
+    margin-top: 100px;
+    margin-left: 415px;
+    text-align: center;
+    display: none;
+}
+
+#corpo34{
+    height: 180px;
+    width: 500px;
+    margin-top: 100px;
+    margin-left: 415px;
+    text-align: center;
+    display: none;
+}
+#corpo35{
+    height: 180px;
+    width: 500px;
+    margin-top: 100px;
+    margin-left: 415px;
+    text-align: center;
+    display: none;
+}
+
+#corpo36{
+    height: 180px;
+    width: 500px;
+    margin-top: 100px;
+    margin-left: 415px;
+    text-align: center;
+    display: none;
+}
+
+#corpo37{
+    height: 180px;
+    width: 500px;
+    margin-top: 100px;
+    margin-left: 415px;
+    text-align: center;
+    display: none;
+}
+
+#corpo38{
+    height: 180px;
+    width: 500px;
+    margin-top: 100px;
+    margin-left: 415px;
+    text-align: center;
+    display: none;
+}
+
+#corpo39{
+    height: 180px;
+    width: 500px;
+    margin-top: 100px;
+    margin-left: 415px;
+    text-align: center;
+    display: none;
+}
+
+#corpo40{
+    height: 180px;
+    width: 500px;
+    margin-top: 100px;
+    margin-left: 415px;
+    text-align: center;
+    display: none;
+}
+
+#corpo41{
+    height: 180px;
+    width: 500px;
+    margin-top: 100px;
+    margin-left: 415px;
+    text-align: center;
+    display: none;
+}
+
+#corpo42{
+    height: 180px;
+    width: 500px;
+    margin-top: 100px;
+    margin-left: 415px;
+    text-align: center;
+    display: none;
+}
+
+#corpo43{
+    height: 180px;
+    width: 500px;
+    margin-top: 100px;
+    margin-left: 415px;
+    text-align: center;
+    display: none;
+}
+
+#corpo44{
+    height: 180px;
+    width: 500px;
+    margin-top: 100px;
+    margin-left: 415px;
+    text-align: center;
+    display: none;
+}
+
+#corpo45{
+    height: 180px;
+    width: 500px;
+    margin-top: 100px;
+    margin-left: 415px;
+    text-align: center;
+    display: none;
+}
+
+#corpo46{
+    height: 180px;
+    width: 500px;
+    margin-top: 100px;
+    margin-left: 415px;
+    text-align: center;
+    display: none;
+}
+
+#corpo47{
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    display: none;
+}
+
+.parabens{
+    margin-top: 80px;
+    height: 400px;
+    width: 600px;
+}
+
+#corpo47 button{
+    background-color: black;
+    border: black;
+    width: 400px;
+    padding: 20px;
+    border-radius: 25px 25px;
+}
+
+#corpo47 button a{
+    text-decoration: none;
+    color: whitesmoke;
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+}
+
+img{
+    height: 300px;
+    width: 300px;
+    border-radius: 25px 25px;
+}
+
+input{
+    padding: 10px;
+    width: 300px;
+}
+
+button{
+    background-color: #EE0000;
+    width: 400px;
+    padding: 15px;
+    border-radius: 25px 25px;
+    border: #EE0000;
+    color: white;
+}

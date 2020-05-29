@@ -1,0 +1,121 @@
+html{
+    background-image: url("toquio.jpg"); /*deixar uma imagem de fundo, fazendo 
+    as divs se mecherem sem mecher na imagem de fundo.*/
+    background-position: center top; /*centraliza a imagem*/
+    background-repeat: no-repeat; /*Não deixa que a imagem se repita*/
+    background-size: cover; /*A imagem é renderizada, preservando sua proporção*/
+}
+
+.inicio{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.cabeçalho{
+    width: 100%;
+    height: 90px;
+    background-color: black;
+    border-bottom: #EE0000 5px solid;
+    border-radius: 25px 25px;
+}
+
+.navegador ul li {
+    display: inline-block;
+}
+
+.navegador a{
+    text-decoration: none;
+    color: whitesmoke;
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+} 
+
+.navegador{
+    float:right;
+}
+
+.titulo{
+    float: left;
+    color: #EE0000;
+    padding: 35px;
+    margin: 0px;
+}
+
+ul li {
+    display: inline-block;
+    border-radius: 4px;
+    margin: 0px;
+  
+    border: none;
+    color: red;
+    text-align: center;
+    font-size: 28px;
+    padding: 20px;
+    width: 200px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+  }
+  
+ul li {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+    margin: 0px;
+}
+
+.container{
+    background-color: black;
+    height: 500px;
+    width: 1220px;
+    margin-top: 70px;
+    margin-right: 50px;
+    margin-left: 70px;
+    border-radius: 25px 25px;
+}
+
+table{
+    color: white;
+    border: #EE0000 1px solid;
+    height: 400px;
+    width: 850px;
+    margin-left: 180px;
+}
+
+td{
+    height: 40px;
+    width: 40px;
+    text-align: center;
+}
+
+h1{
+    color: white;
+    margin-left: 420px;
+}
+
+.container2{
+    background-color: black;
+    height: 500px;
+    width: 1220px;
+    margin-top: 70px;
+    margin-right: 50px;
+    margin-left: 70px;
+    border-radius: 25px 25px;
+}
+
+button{
+    margin-top: 70px;
+    margin-left: 540px;
+    background-color: #EE0000;
+    padding: 11px;
+    border: #EE0000;
+    width: 300px;
+    padding: 20px;
+    border-radius: 25px 25px;
+}
+
+button a{
+    text-decoration: none;
+    color: whitesmoke;
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+}

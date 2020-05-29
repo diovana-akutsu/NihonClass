@@ -1,0 +1,211 @@
+html{
+background-image: url("toquio.jpg");
+}
+
+body{
+    margin: 0;
+    border: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+     'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+.inicio{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.cabeçalho{
+    width: 100%;
+    height: 90px;
+    background-color: black;
+    border-bottom: #EE0000 5px solid;
+}
+
+.navegador ul li {
+    display: inline-block;
+}
+
+.navegador a{
+    text-decoration: none;
+    color: whitesmoke;
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+} 
+
+.navegador{
+    float:right;
+}
+
+.titulo{
+    float: left;
+    color: #EE0000;
+    padding: 35px;
+    margin: 0px;
+}
+
+ul li {
+    display: inline-block;
+    border-radius: 4px;
+    margin: 0px;
+  
+    border: none;
+    color: red;
+    text-align: center;
+    font-size: 28px;
+    padding: 20px;
+    width: 200px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+  }
+  
+  ul li {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+    margin: 0px;
+  }
+  
+  ul li:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  ul li:hover { /*Faz o botão mudar quando o mouse passa por cima */
+    padding-right: 25px;
+  }
+  
+  ul li:hover span:after { /*Deois que o ouse passa*/
+    opacity: 1;
+    right: 0;
+  }
+
+  .showcase{
+      background-image: url("toquio.jpg");
+      min-height: 400px;
+      color: white;
+      margin: 0px;    
+  }
+
+  .showcase .container{
+      text-align: end; /*Deixa o texto alinhado*/
+      margin: 0px;
+  }
+
+  .showcase h1{
+      color: #EE0000;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      margin: 0px;
+  }
+
+  .letra1{
+    font-size: 80px; /*Muda o tamanho da letra*/
+  }
+
+  .letra2{
+      margin: 0;
+      margin-top: 200px;
+      font-size: 60px;
+  }
+
+  .news{
+      background-color: black;
+      width: 100%;
+      height: 100px;
+  }
+
+  .news h1{
+    margin: 0px;
+    float: left;
+    margin-top: 30px; 
+    color: white;
+    margin-left: 50px;
+  }
+
+  .news form{
+      float: right;
+      margin-top: 30px;
+      margin-right: 50px;
+  }
+
+  .news button{
+      background-color: #EE0000;
+      padding: 7px;
+      border-radius: 25px 25px;
+      border: #EE0000;
+  }
+
+  .news input{
+    padding: 7px;
+    border-radius: 25px 25px;
+  }
+
+  .img1{
+    background-image: url("./sakura.PNG");
+    height: 156px; /*Altura*/
+    width: 155px; /*Largura*/
+    float: left; 
+    margin-left: 190px;
+    margin-top: 0px;
+    border-radius: 25px 25px;
+}
+
+.img2{
+    background-image: url("./karpa.PNG");
+    height: 156px;
+    width: 140px;
+    float: left; 
+    margin-left: 305px;
+    margin-top: 0px;
+    border-radius: 25px 25px;
+}
+
+.img3{
+    background-image: url("./ninja.PNG");
+    height: 156px;
+    width: 153px;
+    margin-left: 1060px;
+    margin-top: 80px;
+    border-radius: 25px 25px;
+}
+
+.inform{
+    color: white;
+}
+
+.inform h2{
+    margin: 0px;
+}
+
+.missao{
+    float: left;
+    text-align: center;
+    background-color: black;
+    border-right: #EE0000 5px solid;
+}
+
+.visao{
+    float: left;
+    text-align: center;
+    background-color: black;
+    border-right: #EE0000 5px solid;
+}
+
+.valores{
+    text-align: center;
+    background-color: black;
+    height: 140px;
+}
+
+.contact{
+    color: white;
+    margin-top: 200px;
+    width: 100%;
+    height: 150px;
+    text-align: center;
+}
