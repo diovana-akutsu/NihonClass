@@ -1,8 +1,12 @@
 html{
-    background-image: url("toquio.jpg"); /*deixar uma imagem de fundo, fazendo 
+    background-image: url("../Imagens/japanfundo.jpg"); /*deixar uma imagem de fundo, fazendo 
     as divs se mecherem sem mecher na imagem de fundo.*/
     background-position: center top; /*centraliza a imagem*/ 
     background-size: cover; /*A imagem é renderizada, preservando sua proporção*/
+}
+
+body{
+    margin: 0px;
 }
 
 .inicio{
@@ -15,7 +19,6 @@ html{
     height: 90px;
     background-color: black;
     border-bottom: #EE0000 5px solid;
-    border-radius: 25px 25px;
 }
 
 .navegador ul li {
@@ -64,7 +67,7 @@ ul li {
 }
 
 .img1{
-    background-image: url("./sobre1.png");
+    background-image: url("../Imagens/sobre1.png");
     height: 156px; /*Altura*/
     width: 155px; /*Largura*/
     margin-left: 70px; /*Fas a margem da esquerda aumentar e ele se posicionar
@@ -74,21 +77,21 @@ ul li {
 }
 
 .img2{
-    background-image: url("./sobre2.png");
+    background-image: url("../Imagens/sobre2.png");
     height: 156px;
     width: 140px;
     margin-left: 70px;
     margin-top: 950px;
     float: right;
-    position: absolute
+    position: absolute;
 }
 
 .img3{
-    background-image: url("./sobre3.png");
+    background-image: url("../Imagens/sobre3.png");
     height: 156px;
     width: 153px;
-    margin-left: 70px; 
-    margin-top: 110px;
+    margin-left: 150px; 
+    margin-top: 80px;
     float: left;
 }
 
@@ -125,8 +128,8 @@ ul li {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode',
      Geneva, Verdana, sans-serif; /*Muda a fonte da letra*/
     background-color: black;
-    height: 300px;
-    width: 1000px;
+    height: 220px;
+    width: 1040px;
     margin-left: 20px;
     margin-top: 50px;
     float: right;

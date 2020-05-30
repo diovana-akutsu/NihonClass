@@ -1,0 +1,425 @@
+html{
+    background-image: url("./Imagens/japanfundo.jpg"); /*deixar uma imagem de fundo, fazendo 
+    as divs se mecherem sem mecher na imagem de fundo.*/
+    background-position: center top; /*centraliza a imagem*/
+    background-size: cover; /*A imagem é renderizada, preservando sua proporção*/
+}
+
+body{
+    color: black;
+    text-align: center;
+}
+
+#pontuação{
+    margin-top: 70px;
+    font-size: 60px;
+    color: black;
+}
+
+.pergunt1{
+    margin-top: 60px;
+}
+
+.pergunt1 b{
+    font-size: 60px;
+    color: #EE0000;
+}
+
+.consoantes1{
+    border: black 5px solid;
+    width: 300px;
+    margin-left: 520px;
+    margin-top: 80px;
+}
+
+button{
+    margin-top: 100px;
+    margin-right: 110px;
+    background-color: #EE0000;
+    color: white;
+    padding: 15px;
+    border-radius: 25px 25px;
+    border: #EE0000;
+    margin-left: 80px;
+}
+
+#pergunta2{
+    display: none;
+}
+
+.pergunt2{
+    margin-top: 60px;
+}
+
+.pergunt2 b{
+    font-size: 60px;
+    color: #EE0000;
+}
+
+.consoantes2{
+    border: black 5px solid;
+    width: 300px;
+    margin-left: 520px;
+    margin-top: 80px;
+}
+
+#pergunta3{
+    display: none;
+}
+
+.pergunt3{
+    margin-top: 60px;
+}
+
+.pergunt3 b{
+    font-size: 60px;
+    color: #EE0000;
+}
+
+.consoantes3{
+    border: black 5px solid;
+    width: 100px;
+    margin-left: 600px;
+    margin-top: 80px;
+}
+
+#pergunta4{
+    display: none;
+}
+
+.pergunt4{
+    margin-top: 60px;
+}
+
+.pergunt4 b{
+    font-size: 60px;
+    color: #EE0000;
+}
+
+.consoantes4{
+    border: black 5px solid;
+    width: 300px;
+    margin-left: 520px;
+    margin-top: 80px;
+}
+
+#pergunta5{
+    display: none;
+}
+
+.pergunt5{
+    margin-top: 60px;
+}
+
+.pergunt5 b{
+    font-size: 60px;
+    color: #EE0000;
+}
+
+.consoantes5{
+    border: black 5px solid;
+    width: 300px;
+    margin-left: 520px;
+    margin-top: 80px;
+}
+
+#pergunta6{
+    display: none;
+}
+
+.pergunt6{
+    margin-top: 60px;
+}
+
+.pergunt6 b{
+    font-size: 60px;
+    color: #EE0000;
+}
+
+.consoantes6{
+    border: black 5px solid;
+    width: 300px;
+    margin-left: 520px;
+    margin-top: 80px;
+}
+
+#pergunta7{
+    display: none;
+}
+
+.pergunt7{
+    margin-top: 60px;
+}
+
+.pergunt7 b{
+    font-size: 60px;
+    color: #EE0000;
+}
+
+.consoantes7{
+    border: black 5px solid;
+    width: 300px;
+    margin-left: 520px;
+    margin-top: 80px;
+}
+
+#pergunta8{
+    display: none;
+}
+
+.pergunt8{
+    margin-top: 60px;
+}
+
+.pergunt8 b{
+    font-size: 60px;
+    color: #EE0000;
+}
+
+.consoantes8{
+    border: black 5px solid;
+    width: 300px;
+    margin-left: 520px;
+    margin-top: 80px;
+}
+
+#pergunta9{
+    display: none;
+}
+
+.pergunt9{
+    margin-top: 60px;
+}
+
+.pergunt9 b{
+    font-size: 60px;
+    color: #EE0000;
+}
+
+.consoantes9{
+    border: black 5px solid;
+    width: 300px;
+    margin-left: 520px;
+    margin-top: 80px;
+}
+
+#pergunta10{
+    display: none;
+}
+
+.pergunt10{
+    margin-top: 60px;
+}
+
+.pergunt10 b{
+    font-size: 60px;
+    color: #EE0000;
+}
+
+.consoantes10{
+    border: black 5px solid;
+    width: 300px;
+    margin-left: 520px;
+    margin-top: 80px;
+}
+
+#pergunta11{
+    display: none;
+}
+
+.pergunt11{
+    margin-top: 60px;
+}
+
+.pergunt11 b{
+    font-size: 60px;
+    color: #EE0000;
+}
+
+.consoantes11{
+    border: black 5px solid;
+    width: 300px;
+    margin-left: 520px;
+    margin-top: 80px;
+}
+
+#pergunta12{
+    display: none;
+}
+
+.pergunt12{
+    margin-top: 60px;
+}
+
+.pergunt12 b{
+    font-size: 60px;
+    color: #EE0000;
+}
+
+.consoantes12{
+    border: black 5px solid;
+    width: 300px;
+    margin-left: 520px;
+    margin-top: 80px;
+}
+
+#pergunta13{
+    display: none;
+}
+
+.pergunt13{
+    margin-top: 60px;
+}
+
+.pergunt13 b{
+    font-size: 60px;
+    color: #EE0000;
+}
+
+.consoantes13{
+    border: black 5px solid;
+    width: 300px;
+    margin-left: 520px;
+    margin-top: 80px;
+}
+
+#pergunta14{
+    display: none;
+}
+
+.pergunt14{
+    margin-top: 60px;
+}
+
+.pergunt14 b{
+    font-size: 60px;
+    color: #EE0000;
+}
+
+.consoantes14{
+    border: black 5px solid;
+    width: 300px;
+    margin-left: 520px;
+    margin-top: 80px;
+}
+
+#pergunta15{
+    display: none;
+}
+
+.pergunt15{
+    margin-top: 60px;
+}
+
+.pergunt15 b{
+    font-size: 60px;
+    color: #EE0000;
+}
+
+.consoantes15{
+    border: black 5px solid;
+    width: 300px;
+    margin-left: 520px;
+    margin-top: 80px;
+}
+
+#pergunta16{
+    display: none;
+}
+
+.pergunt16{
+    margin-top: 60px;
+}
+
+.pergunt16 b{
+    font-size: 60px;
+    color: #EE0000;
+}
+
+.consoantes16{
+    border: black 5px solid;
+    width: 300px;
+    margin-left: 520px;
+    margin-top: 80px;
+}
+
+#pergunta17{
+    display: none;
+}
+
+.pergunt17{
+    margin-top: 60px;
+}
+
+.pergunt17 b{
+    font-size: 60px;
+    color: #EE0000;
+}
+
+.consoantes17{
+    border: black 5px solid;
+    width: 300px;
+    margin-left: 520px;
+    margin-top: 80px;
+}
+
+#pergunta18{
+    display: none;
+}
+
+.pergunt18{
+    margin-top: 60px;
+}
+
+.pergunt18 b{
+    font-size: 60px;
+    color: #EE0000;
+}
+
+.consoantes18{
+    border: black 5px solid;
+    width: 300px;
+    margin-left: 520px;
+    margin-top: 80px;
+}
+
+#pergunta19{
+    display: none;
+}
+
+.pergunt19{
+    margin-top: 60px;
+}
+
+.pergunt19 b{
+    font-size: 60px;
+    color: #EE0000;
+}
+
+.consoantes19{
+    border: black 5px solid;
+    width: 300px;
+    margin-left: 520px;
+    margin-top: 80px;
+}
+
+#pergunta20{
+    display: none;
+}
+
+.pergunt20{
+    margin-top: 60px;
+}
+
+.pergunt20 b{
+    font-size: 60px;
+    color: #EE0000;
+}
+
+.consoantes20{
+    border: black 5px solid;
+    width: 300px;
+    margin-left: 520px;
+    margin-top: 80px;
+}
+

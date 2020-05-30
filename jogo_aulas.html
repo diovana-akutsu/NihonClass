@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./StyleCSS/jogo_aulasstyle.css">
+    <title>Prova 1</title>
+</head>
+
+<body>
+    <div id="pontuação"><b>Pontuação:<b id="pontos">0</b></b></div>
+
+    <div id="pergunta1">
+
+        <div class="pergunt1"><b>Faça o dobramento correto da consoante:</b></div>
+        <div class="consoantes1"><b>I__TERA__SHAI = いってらっしゃい</b></div>
+
+        <button onclick="resultado1()"><b>ITERASHAI</b></button>
+        <button onclick="resultado2()"><b>ITTERASHAI</b></button>
+        <button onclick="resultado3()"><b>ITTERASSHAI</b></button>
+
+    </div>
+
+    <div id="pergunta2">
+
+        <div class="pergunt2"><b>Faça o dobramento correto da consoante:</b></div>
+        <div class="consoantes2"><b>KO__NICHIWA = こんにちは</b></div>
+
+        <button onclick="resultado4()"><b>KONICHIHA</b></button>
+        <button onclick="resultado5()"><b>KONNICHIWA</b></button>
+        <button onclick="resultado6()"><b>KO...NICHIWA</b></button>
+
+    </div>
+
+    <div id="pergunta3">
+
+        <div class="pergunt3"><b>Faça o pronlogamento correto da vogal:</b></div>
+        <div class="consoantes3"><b>OBA__SAN</b></div>
+
+        <button onclick="resultado7()"><b>OBASAN</b></button>
+        <button onclick="resultado8()"><b>OBASSAN</b></button>
+        <button onclick="resultado9()"><b>OBAASAN</b></button>
+
+    </div>
+
+    <div id="pergunta4">
+
+        <div class="pergunt4"><b>Faça o pronlogamento correto da vogal:</b></div>
+        <div class="consoantes4"><b>SU__GAKU</b></div>
+
+        <button onclick="resultado10()"><b>SUUGAKU</b></button>
+        <button onclick="resultado11()"><b>SUOGAKU</b></button>
+        <button onclick="resultado12()"><b>SUGAKU</b></button>
+
+    </div>
+
+    <div id="pergunta5">
+
+        <div class="pergunt5"><b>Faça o pronlogamento correto da vogal:</b></div>
+        <div class="consoantes5"><b>KI__TO</b></div>
+
+        <button onclick="resultado13()"><b>KIITO</b></button>
+        <button onclick="resultado14()"><b>KITO</b></button>
+        <button onclick="resultado15()"><b>KIETO</b></button>
+
+    </div>
+
+    <div id="pergunta6">
+
+        <div class="pergunt6"><b>Faça o pronlogamento correto da vogal:</b></div>
+        <div class="consoantes6"><b>SENSE__</b></div>
+
+        <button onclick="resultado16()"><b>SENSEE</b></button>
+        <button onclick="resultado17()"><b>SENSEI</b></button>
+        <button onclick="resultado18()"><b>SENSEEI</b></button>
+
+    </div>
+
+    <div id="pergunta7">
+
+        <div class="pergunt7"><b>Faça o pronlogamento correto da vogal:</b></div>
+        <div class="consoantes7"><b>OHAYO__</b></div>
+
+        <button onclick="resultado19()"><b>OHAYOI</b></button>
+        <button onclick="resultado20()"><b>OHAYOO</b></button>
+        <button onclick="resultado21()"><b>OHAYOU</b></button>
+
+    </div>
+
+    <div id="pergunta8">
+
+        <div class="pergunt8"><b>Faça o pronlogamento correto da vogal:</b></div>
+        <div class="consoantes8"><b>KO__RI</b></div>
+
+        <button onclick="resultado22()"><b>KOURI</b></button>
+        <button onclick="resultado23()"><b>KOARI</b></button>
+        <button onclick="resultado24()"><b>KOORI</b></button>
+
+    </div>
+
+    <div id="pergunta9">
+
+        <div class="pergunt9"><b>Faça o pronlogamento correto da vogal:</b></div>
+        <div class="consoantes9"><b>KA__DO/NO__TO = カード/ノート</b></div>
+
+        <button onclick="resultado25()"><b>KAIDO/NOOTO</b></button>
+        <button onclick="resultado26()"><b>KAADO/NOOTO</b></button>
+        <button onclick="resultado27()"><b>KAADO/NOUTO</b></button>
+
+    </div>
+
+    <div id="pergunta10">
+
+        <div class="pergunt10"><b>Faça a tradução correta:</b></div>
+        <div class="consoantes10"><b>BOM DIA</b></div>
+
+        <button onclick="resultado28()"><b>おやすみなさい</b></button>
+        <button onclick="resultado29()"><b>おはよう</b></button>
+        <button onclick="resultado30()"><b>こんばんは</b></button>
+
+    </div>
+
+    <div id="pergunta11">
+
+        <div class="pergunt11"><b>Faça a tradução correta:</b></div>
+        <div class="consoantes11"><b>こんばんは</b></div>
+
+        <button onclick="resultado31()"><b>ADEUS</b></button>
+        <button onclick="resultado32()"><b>BOA NOITE</b></button>
+        <button onclick="resultado33()"><b>BOA TARDE</b></button>
+
+    </div>
+
+    <div id="pergunta12">
+
+        <div class="pergunt12"><b>Faça a tradução correta:</b></div>
+        <div class="consoantes12"><b>BOA NOITE (AO DESCANSAR)</b></div>
+
+        <button onclick="resultado34()"><b>おやすみ</b></button>
+        <button onclick="resultado35()"><b>こんばんは</b></button>
+        <button onclick="resultado36()"><b>こんにちは</b></button>
+
+    </div>
+
+    <div id="pergunta13">
+
+        <div class="pergunt13"><b>Faça a tradução correta:</b></div>
+        <div class="consoantes13"><b>こんにちは</b></div>
+
+        <button onclick="resultado37()"><b>VÁ COM DEUS</b></button>
+        <button onclick="resultado38()"><b>ADEUS</b></button>
+        <button onclick="resultado39()"><b>BOA TARDE</b></button>
+
+    </div>
+
+    <div id="pergunta14">
+
+        <div class="pergunt14"><b>Faça a tradução correta:</b></div>
+        <div class="consoantes14"><b>さようなら</b></div>
+
+        <button onclick="resultado40()"><b>VÁ COM DEUS</b></button>
+        <button onclick="resultado41()"><b>ADEUS</b></button>
+        <button onclick="resultado42()"><b>BOA TARDE</b></button>
+
+    </div>
+
+    <div id="pergunta15">
+
+        <div class="pergunt15"><b>Faça a tradução correta:</b></div>
+        <div class="consoantes15"><b>いってらしゃい</b></div>
+
+        <button onclick="resultado43()"><b>VÁ COM DEUS</b></button>
+        <button onclick="resultado44()"><b>ADEUS</b></button>
+        <button onclick="resultado45()"><b>BOA TARDE</b></button>
+
+    </div>
+</body>
+
+</html>
+<script>
+    var ganhou = 0;
+
+    //setInterval(function () {
+    //pontos.innerHTML = --ganhou;},15000);
+
+    function resultado1() {
+        pontos.innerHTML = --ganhou;
+    }
+    function resultado2() {
+        pontos.innerHTML = --ganhou;
+    }
+    function resultado3() {
+        pontos.innerHTML = ++ganhou;
+        pergunta1.style.display = "none";
+        pergunta2.style.display = "block";
+    }
+    function resultado4() {
+        pontos.innerHTML = --ganhou;
+    }
+    function resultado5() {
+        pontos.innerHTML = ++ganhou;
+        pergunta2.style.display = "none";
+        pergunta3.style.display = "block";
+    }
+    function resultado6() {
+        pontos.innerHTML = --ganhou;
+    }
+    function resultado7() {
+        pontos.innerHTML = --ganhou;
+    }
+    function resultado8() {
+        pontos.innerHTML = --ganhou;
+    }
+    function resultado9() {
+        pontos.innerHTML = ++ganhou;
+        pergunta3.style.display = "none";
+        pergunta4.style.display = "block";
+    }
+    function resultado10() {
+        pontos.innerHTML = ++ganhou;
+        pergunta4.style.display = "none";
+        pergunta5.style.display = "block";
+    }
+    function resultado11() {
+        pontos.innerHTML = --ganhou;
+    }
+    function resultado12() {
+        pontos.innerHTML = --ganhou;
+    }
+    function resultado13() {
+        pontos.innerHTML = ++ganhou;
+        pergunta5.style.display = "none";
+        pergunta6.style.display = "block";
+    }
+    function resultado14() {
+        pontos.innerHTML = --ganhou;
+    }
+    function resultado15() {
+        pontos.innerHTML = --ganhou;
+    }
+    function resultado16() {
+        pontos.innerHTML = --ganhou;
+    }
+    function resultado17() {
+        pontos.innerHTML = ++ganhou;
+        pergunta6.style.display = "none";
+        pergunta7.style.display = "block";
+    }
+    function resultado18() {
+        pontos.innerHTML = --ganhou;
+    }
+    function resultado19() {
+        pontos.innerHTML = --ganhou;
+    }
+    function resultado20() {
+        pontos.innerHTML = --ganhou;
+    }
+    function resultado21() {
+        pontos.innerHTML = ++ganhou;
+        pergunta7.style.display = "none";
+        pergunta8.style.display = "block";
+    }
+    function resultado22() {
+        pontos.innerHTML = --ganhou;
+    }
+    function resultado23() {
+        pontos.innerHTML = --ganhou;
+    }
+    function resultado24() {
+        pontos.innerHTML = ++ganhou;
+        pergunta8.style.display = "none";
+        pergunta9.style.display = "block";
+    }
+    function resultado25() {
+        pontos.innerHTML = --ganhou;
+    }
+    function resultado26() {
+        pontos.innerHTML = ++ganhou;
+        pergunta9.style.display = "none";
+        pergunta10.style.display = "block";
+    }
+    function resultado27() {
+        pontos.innerHTML = --ganhou;
+    }
+    function resultado28() {
+        pontos.innerHTML = --ganhou;
+    }
+    function resultado29() {
+        pontos.innerHTML = ++ganhou;
+        pergunta10.style.display = "none";
+        pergunta11.style.display = "block";
+    }
+    function resultado30() {
+        pontos.innerHTML = --ganhou;
+    }
+    function resultado31() {
+        pontos.innerHTML = --ganhou;
+    }
+    function resultado32() {
+        pontos.innerHTML = ++ganhou;
+        pergunta11.style.display = "none";
+        pergunta12.style.display = "block";
+    }
+    function resultado33() {
+        pontos.innerHTML = --ganhou;
+    }
+    function resultado34() {
+        pontos.innerHTML = ++ganhou;
+        pergunta12.style.display = "none";
+        pergunta13.style.display = "block";
+    }
+    function resultado35() {
+        pontos.innerHTML = --ganhou;
+    }
+    function resultado36() {
+        pontos.innerHTML = --ganhou;
+    }
+    function resultado37() {
+        pontos.innerHTML = --ganhou;
+    }
+    function resultado38() {
+        pontos.innerHTML = --ganhou;
+    }
+    function resultado39() {
+        pontos.innerHTML = ++ganhou;
+        pergunta13.style.display = "none";
+        pergunta14.style.display = "block";
+    }
+    function resultado40() {
+        pontos.innerHTML = --ganhou;
+    }
+    function resultado41() {
+        pontos.innerHTML = ++ganhou;
+        pergunta14.style.display = "none";
+        pergunta15.style.display = "block";
+    }
+    function resultado42() {
+        pontos.innerHTML = --ganhou;
+    }
+</script>

@@ -1,5 +1,5 @@
 html{
-    background-image: url("toquio.jpg"); /*deixar uma imagem de fundo, fazendo 
+    background-image: url("../Imagens/japanfundo.jpg"); /*deixar uma imagem de fundo, fazendo 
     as divs se mecherem sem mecher na imagem de fundo.*/
     background-position: center top; /*centraliza a imagem*/
     background-repeat: no-repeat; /*Não deixa que a imagem se repita*/
@@ -16,7 +16,6 @@ html{
     height: 90px;
     background-color: black;
     border-bottom: #EE0000 5px solid;
-    border-radius: 25px 25px;
 }
 
 .navegador ul li {
@@ -55,6 +54,10 @@ ul li {
     cursor: pointer;
     margin: 5px;
   }
+
+body{
+    margin: 0px;
+}
   
 ul li {
     cursor: pointer;
@@ -65,7 +68,7 @@ ul li {
 }
 
 .img_cadastro{
-    background-image: url("login.jpg");
+    background-image: url("../Imagens/login.jpg");
     height: 540px;
     width: 531px;
     margin-top: 0px;
@@ -115,3 +118,4 @@ input{
     padding: 10px;
     width: 330px;
 }
+

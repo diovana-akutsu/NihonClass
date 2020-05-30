@@ -1,5 +1,7 @@
 html{
-    background-image: url("toquio.jpg"); 
+    background-image: url("../Imagens/japanfundo.jpg"); 
+    background-position: right; 
+    background-size: cover;
 }
 
 body{
@@ -20,7 +22,6 @@ body{
     height: 90px;
     background-color: black;
     border-bottom: #EE0000 5px solid;
-    border-radius: 25px 25px;
 }
 
 .navegador ul li {
@@ -114,6 +115,34 @@ h2{
     color: bisque;
     text-align: center;
     border-radius: 25px 25px;
+}
+
+.aula5{
+    margin-top: 150px;
+    background-color: black;
+    width: 80%;
+    height: 300px;
+    margin-left: 10%;
+    color: bisque;
+    text-align: center;
+    border-radius: 25px 25px;
+}
+
+button{
+    margin-top: 70px;
+    margin-left: 540px;
+    background-color: #EE0000;
+    padding: 11px;
+    border: #EE0000;
+    width: 300px;
+    padding: 20px;
+    border-radius: 25px 25px;
+}
+
+button a{
+    text-decoration: none;
+    color: whitesmoke;
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
 }
 
 

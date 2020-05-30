@@ -1,5 +1,5 @@
 html{
-    background-image: url("toquio.jpg"); /*deixar uma imagem de fundo, fazendo 
+    background-image: url("../Imagens/japanfundo.jpg"); /*deixar uma imagem de fundo, fazendo 
     as divs se mecherem sem mecher na imagem de fundo.*/
     background-position: center top; /*centraliza a imagem*/
     background-size: cover; /*A imagem é renderizada, preservando sua proporção*/
