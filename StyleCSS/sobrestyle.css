@@ -105,7 +105,7 @@ ul li {
     margin-left: 80px;
     margin-top: 50px; /*Aumentou a margem de cima fazendo com que a div se 
     posicionasse ara baixo*/
-    text-align: left;
+    text-align: center;
     float: left;
     border-radius: 25px 25px;
 }
@@ -119,6 +119,7 @@ ul li {
     width: 1000px;
     margin-left: 20px;
     margin-top: 50px;
+    text-align: center;
     float: left;
     border-radius: 25px 25px;
 }
@@ -132,6 +133,7 @@ ul li {
     width: 1040px;
     margin-left: 20px;
     margin-top: 50px;
+    text-align: center;
     float: right;
     border-radius: 25px 25px;
 }
