@@ -13,7 +13,7 @@ function mostrar1(texto, botao) { //Duas variaveis são definidas quando chama a
         } else {
             sorteio = parseInt(Math.random() * lista.length);
             var sair = lista[sorteio];
-            a2.src = `./Imagens/${sair}.png`;
+            a2.src = `./Imagens/${sair}.PNG`;
             botao.setAttribute("onclick", `mostrar1('${sair}',this)`); // Mudar a função do onclick
             lista.splice(lista.indexOf(sair), 1); // a partir do 0 tira 1 
         }

@@ -67,7 +67,7 @@ ul li {
 }
 
 .img1{
-    background-image: url("../Imagens/sobre1.png");
+    background-image: url("../Imagens/sobre1.PNG");
     height: 156px; /*Altura*/
     width: 155px; /*Largura*/
     margin-left: 70px; /*Fas a margem da esquerda aumentar e ele se posicionar
@@ -77,7 +77,7 @@ ul li {
 }
 
 .img2{
-    background-image: url("../Imagens/sobre2.png");
+    background-image: url("../Imagens/sobre2.PNG");
     height: 156px;
     width: 140px;
     margin-left: 70px;
@@ -87,7 +87,7 @@ ul li {
 }
 
 .img3{
-    background-image: url("../Imagens/sobre3.png");
+    background-image: url("../Imagens/sobre3.PNG");
     height: 156px;
     width: 153px;
     margin-left: 150px; 
