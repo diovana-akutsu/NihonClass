@@ -90,8 +90,8 @@ ul li {
     background-image: url("../Imagens/sobre3.PNG");
     height: 156px;
     width: 153px;
-    margin-left: 150px; 
-    margin-top: 80px;
+    margin-left: 100px; 
+    margin-top: 140px;
     float: left;
 }
 
@@ -115,7 +115,7 @@ ul li {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode',
      Geneva, Verdana, sans-serif; /*Muda a fonte da letra*/
     background-color: black;
-    height: 300px;
+    height: 350px;
     width: 1000px;
     margin-left: 20px;
     margin-top: 50px;
