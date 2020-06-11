@@ -423,3 +423,22 @@ button{
     margin-top: 80px;
 }
 
+#pergunta21{
+    display: none;
+}
+
+.pergunt21{
+    margin-top: 60px;
+}
+
+.pergunt21 b{
+    font-size: 60px;
+    color: #EE0000;
+}
+
+.consoantes21{
+    border: black 5px solid;
+    width: 300px;
+    margin-left: 520px;
+    margin-top: 80px;
+}
