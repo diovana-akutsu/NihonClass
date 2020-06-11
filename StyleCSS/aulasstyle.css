@@ -145,4 +145,12 @@ button a{
     font-family: Verdana, Geneva, Tahoma, sans-serif; 
 }
 
+span{
+    cursor: pointer;
+    color: #ff2401;
+}
 
+span:hover{
+    cursor: pointer;
+    color: white
+}
