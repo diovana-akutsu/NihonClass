@@ -31,7 +31,7 @@
         <input placeholder="E-mail" id="valor_login"> <br>
         <input placeholder="Senha" id="valor_senha"> <br>
         <br>
-        <button onclick="entrar()" class="botao1"><a href="aulas1.html"><b>Entrar</b></a></button><br>
+        <button onclick="entrar()" class="botao1"><b>Entrar</b></button><br>
         <br>
         <span><b>Caso ainda não seja aluno clique em</b></span>
         <button class="botao2"><a href="cadastro.html"><b>Cadastre-se</b></a></button>
@@ -40,24 +40,4 @@
 </body>
 
 </html>
-<script>
-    function entrar() {
-        var login = valor_login.value == "aidimin";
-        var senha = valor_senha.value == "seinha";
-
-        var resultado = '';
-
-        if (login && senha) {
-            resultado = '<span style="color: blue">Usuário autenticado com sucesso!</span>'
-        } else {
-            if (!login) {
-                resultado = 'Seu login está inválido!<br>';
-            }
-            if (!senha) {
-                resultado += 'Sua senha está inválida!';
-                alert('Entre em contato com o suporte para recuperar sua senha');
-            }
-        }
-        div_resultado.innerHTML = resultado;
-    }
-</script>
+<script src="./JavaScript/loginJavaScript.js"></script>

@@ -1,0 +1,129 @@
+body {
+    margin: 0;
+    background-image: url("../Imagens/japanfundo.jpg");
+    background-position: center top; 
+    background-size: cover;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular',
+    'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  
+  .container {
+    text-align: center;
+    width: 90%;
+    margin: auto;
+  }
+  
+  /* aqui começa o cabeçalho */
+  
+  .header {
+    height: 60px;
+    width: 100%;
+    background-color: black;
+  }
+  /* aqui termina o cabeçalho */
+  
+  /* aqui começa o gráfico */
+  .icon {
+    margin-left: 45px;
+    display: inline-block;
+    color: #34495e;
+  }
+  
+  .main {
+    transition: 0.3s;
+  }
+  
+  .box {
+    display: inline-block;
+    width: 30%;
+    margin: 5px;
+    margin-bottom: 25px;
+    border-radius: 5px;
+    height: 130px;
+    color: #ffffff;
+  }
+
+  /* .box:hover {
+    opacity: 0.5;
+  } */
+  
+  .b-media {
+    background-color: black;
+    margin-right: 100px;
+  }
+
+  .b-media h1{
+      margin-top: 45px;
+  }
+
+  .b-mensagem {
+    background-color: red;
+  }
+
+  .b-mensagem h1{
+    margin-top: 45px;
+}
+  
+  .graph {
+    margin: 5px;
+    display: inline-block;
+    border-radius: 5px;
+    height: 300px;
+    background-color: white;
+  }
+  .graph img {
+    height: 220px;
+  }
+  
+  .g-1 {
+    width: 61%;
+  }
+
+  .g-2 {
+    background-color: gray;
+    width: 30%;
+  }
+  /* aqui termina o gráfico */
+  
+  /* SIDEBAR */
+  .openbtn {
+    font-size: 35px;
+    cursor: pointer;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+  }
+  
+  .sidebar {
+    height: 100%;
+    width: 0;
+    background-color: black;
+    position: fixed;
+    overflow-x: hidden;
+    transition: 0.3s;
+  }
+  
+  .sidebar a {
+    padding: 25px;
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    display: block;
+  }
+  
+  .sidebar a:hover {
+    color: white;
+    background-color: #999898;
+  }
+  
+  .sidebar .closebtn {
+    font-size: 37px;
+    margin-left: 60%;
+    text-align: center;
+  }
+
+  .sidebar .closebtn:hover {
+      color: white;
+      background-color: #999898;
+  }
+  

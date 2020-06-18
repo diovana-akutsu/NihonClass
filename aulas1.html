@@ -5,25 +5,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Nihon Class(Aulas)</title>
-    <link rel="stylesheet" href="./StyleCSS/aulasstyle.css">
+    <title>Aula 1</title>
+    <link rel="stylesheet" href="./StyleCSS/aula1style.css">
 </head>
 
 <body>
-    <div class="cabeçalho">
-        <div class="inicio">
-            <div>
-                <h1 class="titulo">NihonClass</h1>
-            </div>
-            <div class="navegador">
-                <ul>
-                    <li><a href="index.html">INÍCIO</a></li>
-                    <li><a href="sobre.html">SOBRE</a></li>
-                    <li><a href="alfabetos.html">ALFABETOS</a></li>
-                </ul>
-            </div>
-        </div>
+    <div class="sidebar" id="mySidebar">
+        <a href="#" class="closebtn" onclick="closeNav()">x</a>
+        <a href="perfil.html">Perfil</a>
+        <a href="aluno_aulas.html">Aulas</a>
+        <a href="aluno_avaliaçoes.html">Avaliações</a>
+        <a href="alfabetos_perfil.html">Alfabetos</a>
+        <a href="index.html">Sair</a>
     </div>
+
+    <div class="header">
+        <a class="openbtn" onclick="openNav()">☰</a>
+    </div>
+    
     <div class="conteudo">
         <div class="aula1">
             <br>
@@ -42,8 +41,10 @@
                 <br>
                 (O "..." significa um curto espaço de tempo entre a letra antes do っ e depois do っ). <br>
                 <br>
-                Akka (Desfazer) = あっか / pronúncia:<span onclick="audio2()"> <audio src="./audios/akka.mp3" id="som2"></audio>A...KA</span> <br>
-                Massao (Azul profundo) = まっさお / pronúncia: <span onclick="audio3()"> <audio src="./audios/massao.mp3" id="som3"></audio>MA...SAO</span>
+                Akka (Desfazer) = あっか / pronúncia:<span onclick="audio2()"> <audio src="./audios/akka.mp3"
+                        id="som2"></audio>A...KA</span> <br>
+                Massao (Azul profundo) = まっさお / pronúncia: <span onclick="audio3()"> <audio src="./audios/massao.mp3"
+                        id="som3"></audio>MA...SAO</span>
             </p>
         </div>
 
@@ -57,8 +58,10 @@
                 porque pode gerar duas palavras totalmente diferentes. <br>
                 <br>
                 Como por exemplo as palavras tia e avó: <br>
-                おばさん<span onclick="audio4()"> <audio src="./audios/obasan.mp3" id="som4"></audio>(Obasan)</span> = Tia <br>
-                おばあさん<span onclick="audio5()"> <audio src="./audios/obaasan.mp3" id="som5"></audio>(Obaasan)</span> = Avó <br>
+                おばさん<span onclick="audio4()"> <audio src="./audios/obasan.mp3" id="som4"></audio>(Obasan)</span> = Tia
+                <br>
+                おばあさん<span onclick="audio5()"> <audio src="./audios/obaasan.mp3" id="som5"></audio>(Obaasan)</span> =
+                Avó <br>
                 <br>
                 Mas também existe um regra de prolongação de vogais como por exemplo, a letra
                 え(e) só pode ser prologada <br>
@@ -67,29 +70,38 @@
                 Aqui podemos ver alguns exemplos: <br>
                 <br>
                 Se a sílaba termina com あ(a), prolonga com あ(a): <br>
-                おばあさん<span onclick="audio6()"> <audio src="./audios/obaasan.mp3" id="som6"></audio>(obaasan)</span> = Avó. <br>
+                おばあさん<span onclick="audio6()"> <audio src="./audios/obaasan.mp3" id="som6"></audio>(obaasan)</span> =
+                Avó. <br>
                 <br>
                 Se a sílaba termina com い(i), prolonga com い(i): <br>
-                きいと<span onclick="audio7()"> <audio src="./audios/kiito.mp3" id="som7"></audio>(kiito)</span> = Criança. <br>
+                きいと<span onclick="audio7()"> <audio src="./audios/kiito.mp3" id="som7"></audio>(kiito)</span> = Criança.
+                <br>
                 <br>
                 Se a sílaba termina com う(u), prolonga com う(u): <br>
-                すうがく<span onclick="audio8()"> <audio src="./audios/suugaku.mp3" id="som8"></audio>(suugaku)</span> = Gargarejo. <br>
+                すうがく<span onclick="audio8()"> <audio src="./audios/suugaku.mp3" id="som8"></audio>(suugaku)</span> =
+                Gargarejo. <br>
                 <br>
                 Se a sílaba termina com え(e), prolonga com い(i): <br>
-                せんせい<span onclick="audio9()"> <audio src="./audios/sensei.mp3" id="som9"></audio>(sensei)</span> = Professor. <br>
+                せんせい<span onclick="audio9()"> <audio src="./audios/sensei.mp3" id="som9"></audio>(sensei)</span> =
+                Professor. <br>
                 れい(rei) = Zero. <br>
                 <br>
                 Se a sílaba termina com お(o), prolonga com う(u) (há exceções: お(o)): <br>
-                ありがとう<span onclick="audio10()"> <audio src="./audios/arigatou.mp3" id="som10"></audio>(arigatou)</span> = Obrigado. <br>
-                おはよう<span onclick="audio11()"> <audio src="./audios/ohayou.mp3" id="som11"></audio>(ohayou)</span> = Bom dia. <br>
-                こおり<span onclick="audio12()"> <audio src="./audios/koori.mp3" id="som12"></audio>(koori)</span> *exceção = É um nome.
+                ありがとう<span onclick="audio10()"> <audio src="./audios/arigatou.mp3" id="som10"></audio>(arigatou)</span>
+                = Obrigado. <br>
+                おはよう<span onclick="audio11()"> <audio src="./audios/ohayou.mp3" id="som11"></audio>(ohayou)</span> = Bom
+                dia. <br>
+                こおり<span onclick="audio12()"> <audio src="./audios/koori.mp3" id="som12"></audio>(koori)</span> *exceção
+                = É um nome.
             </p>
             <h3>Katakana</h3>
             <p>
                 Todos os prolongamentos são feitos com um traço ー: <br>
                 <br>
-                カード (<span onclick="audio13()"> <audio src="./audios/kaado.mp3" id="som13"></audio>kaado</span> -- do inglês card) = Cartão. <br>
-                ノート (<span onclick="audio14()"> <audio src="./audios/nooto.mp3" id="som14"></audio>nooto</span> -- do inglês notebook) = Caderno. <br>
+                カード (<span onclick="audio13()"> <audio src="./audios/kaado.mp3" id="som13"></audio>kaado</span> -- do
+                inglês card) = Cartão. <br>
+                ノート (<span onclick="audio14()"> <audio src="./audios/nooto.mp3" id="som14"></audio>nooto</span> -- do
+                inglês notebook) = Caderno. <br>
             </p>
         </div>
     </div>
@@ -101,30 +113,38 @@
             boa tarde e boa noite. <br>
             Mas além deles há outras formas de se apresentar no contexto correto.
         </p>
-        <h3>Tipos de apresentações e a forma correta de usá-las:</h3> 
+        <h3>Tipos de apresentações e a forma correta de usá-las:</h3>
         <p>
-            はじめまして(<span onclick="audio15()"><audio src="./audios/hakimemashite.mp3" id="som15"></audio>Hajimemashite</span>) - Prazer em conhecê-lo. --->
+            はじめまして(<span onclick="audio15()"><audio src="./audios/hakimemashite.mp3"
+                    id="som15"></audio>Hajimemashite</span>) - Prazer em conhecê-lo. --->
             Mas tem um significado de "É a primeira vez que te encontro.",<br>
             então use quando se apresentar a alguém de forma informal. <br>
             <br>
             Logo em seguida pode usar... <br>
-             _____と言います(_____<span onclick="audio16()"><audio src="./audios/to iimasu.mp3" id="som16"></audio>To iimasu</span>) – Meu nome/me chamo _____  --->
-             Se usa para dizer seu nome de uma forma mais informal. <br>
-             Mas caso queira algo mais formal use... <br>
-             私は_____と申します(<span onclick="audio17()"><audio src="./audios/watashi wa.mp3" id="som17"></audio>Watashi wa</span>
-              _____ <span onclick="audio18()"> <audio src="./audios/to omoushimasu.mp3" id="som18"></audio>to omoushimasu</span>) - Eu me chamo _____. <br>
-             <br>
-             Mas sempre dá para adaptar as apresentações como por exemplo: <br>
+            _____と言います(_____<span onclick="audio16()"><audio src="./audios/to iimasu.mp3" id="som16"></audio>To
+                iimasu</span>) – Meu nome/me chamo _____ --->
+            Se usa para dizer seu nome de uma forma mais informal. <br>
+            Mas caso queira algo mais formal use... <br>
+            私は_____と申します(<span onclick="audio17()"><audio src="./audios/watashi wa.mp3" id="som17"></audio>Watashi
+                wa</span>
+            _____ <span onclick="audio18()"> <audio src="./audios/to omoushimasu.mp3" id="som18"></audio>to
+                omoushimasu</span>) - Eu me chamo _____. <br>
+            <br>
+            Mas sempre dá para adaptar as apresentações como por exemplo: <br>
             はじめましてわら氏は＿＿＿ですどうぞ。よろしくおねがいします。<br>
-            (<span onclick="audio19()"><audio src="./audios/hajimemashite watashi wa.mp3" id="som19"></audio>Hajimemashite watashi wa</span>
-             ____ <span onclick="audio20()"><audio src="./audios/desu douzou.mp3" id="som20"></audio>desu douzo yoroshiku onegaishimasu.</span>) -
+            (<span onclick="audio19()"><audio src="./audios/hajimemashite watashi wa.mp3"
+                    id="som19"></audio>Hajimemashite watashi wa</span>
+            ____ <span onclick="audio20()"><audio src="./audios/desu douzou.mp3" id="som20"></audio>desu douzo yoroshiku
+                onegaishimasu.</span>) -
             Prazer em conhece-lo, me chamo ____ conto com a sua ajuda. <br>
-            ---> Podemos usar para se apresentar formalmente para várias pessoas, como no 
+            ---> Podemos usar para se apresentar formalmente para várias pessoas, como no
             trabalho ou na escola. <br>
             <br>
             Agora para você apresentar outras pessoas use: <br>
-            こちらは＿＿＿さんです。(<span onclick="audio21()"><audio src="./audios/kochirawa.mp3" id="som21"></audio>Kochira wa</span>
-             ____ <span onclick="audio22()"><audio src="./audios/san desu.mp3" id="som22"></audio>san desu.</span>) - Este é o/a ____.
+            こちらは＿＿＿さんです。(<span onclick="audio21()"><audio src="./audios/kochirawa.mp3" id="som21"></audio>Kochira
+                wa</span>
+            ____ <span onclick="audio22()"><audio src="./audios/san desu.mp3" id="som22"></audio>san desu.</span>) -
+            Este é o/a ____.
         </p>
     </div>
     <div class="aula4">
@@ -134,26 +154,44 @@
             Diferente das apresentações as saudações são usadas mais no dia-a-dia das pessoas. <br>
             Aqui estão algumas saudações: <br>
             <br>
-            おはよう<span onclick="audio23()"><audio src="./audios/ohayou.mp3" id="som23"></audio>(Ohayou)</span> - Bom dia. <br>
-            こんにちは<span onclick="audio24()"><audio src="./audios/konnichiha.mp3" id="som24"></audio>(Konnichiwa)</span> - Boa tarde. <br>
+            おはよう<span onclick="audio23()"><audio src="./audios/ohayou.mp3" id="som23"></audio>(Ohayou)</span> - Bom dia.
+            <br>
+            こんにちは<span onclick="audio24()"><audio src="./audios/konnichiha.mp3" id="som24"></audio>(Konnichiwa)</span> -
+            Boa tarde. <br>
             おやすみ/おやすみなさい<span onclick="audio25()"><audio src="./audios/oyasumi.mp3" id="som25"></audio>(Oyasumi</span>
-            <span onclick="audio26()"><audio src="./audios/oyasuminasai.mp3" id="som26"></audio>/Oyasuminasai)</span> - Boa noite ---> Para quando for dormir. <br>
-            こんばんは<span onclick="audio27()"><audio src="./audios/konbanwa.mp3" id="som27"></audio>(Konbanwa)</span> - Boa noite ---> Para cumprimentar tipo um "oi". <br>
-            さようなら<span onclick="audio28()"><audio src="./audios/sayounara.mp3" id="som28"></audio>(Sayounara)</span> - Adeus. <br>
-            ありがとう<span onclick="audio29()"><audio src="./audios/arigatou.mp3" id="som29"></audio>(Arigatou)</span> - Obrigado. <br>
-            どういたしまして<span onclick="audio30()"><audio src="./audios/doitashimashite.mp3" id="som30"></audio>(Douitashimashite)</span> - De nada. <br>
-            いただきます<span onclick="audio31()"><audio src="./audios/itadakimasu.mp3" id="som31"></audio>(Itadakimasu)</span> - Obrigado pela comida. ---> Se diz antes de toda refeição.<br>
-            ごちそうさま<span onclick="audio32()"><audio src="./audios/gochisousama.mp3" id="som32"></audio>(Gochisousama)</span> - Obrigado pela comida. ---> Depois da refeição. <br>
-            すみません<span onclick="audio33()"><audio src="./audios/sumimasen.mp3" id="som33"></audio>(Sumimasen)</span> - Desculpe/Licença. <br>
-            いってきます<span onclick="audio34()"><audio src="./audios/ittekimasu.mp3" id="som34"></audio>(Ittekimasu)</span> - Estou saindo. ---> Se diz antes de sair de casa. <br>
-            いってらっしゃい<span onclick="audio35()"><audio src="./audios/iterashai.mp3" id="som35"></audio>(Itterasshai)</span> - Vá com Deus. ---> Se diz para pessoa que está
+            <span onclick="audio26()"><audio src="./audios/oyasuminasai.mp3" id="som26"></audio>/Oyasuminasai)</span> -
+            Boa noite ---> Para quando for dormir. <br>
+            こんばんは<span onclick="audio27()"><audio src="./audios/konbanwa.mp3" id="som27"></audio>(Konbanwa)</span> - Boa
+            noite ---> Para cumprimentar tipo um "oi". <br>
+            さようなら<span onclick="audio28()"><audio src="./audios/sayounara.mp3" id="som28"></audio>(Sayounara)</span> -
+            Adeus. <br>
+            ありがとう<span onclick="audio29()"><audio src="./audios/arigatou.mp3" id="som29"></audio>(Arigatou)</span> -
+            Obrigado. <br>
+            どういたしまして<span onclick="audio30()"><audio src="./audios/doitashimashite.mp3"
+                    id="som30"></audio>(Douitashimashite)</span> - De nada. <br>
+            いただきます<span onclick="audio31()"><audio src="./audios/itadakimasu.mp3"
+                    id="som31"></audio>(Itadakimasu)</span> - Obrigado pela comida. ---> Se diz antes de toda
+            refeição.<br>
+            ごちそうさま<span onclick="audio32()"><audio src="./audios/gochisousama.mp3"
+                    id="som32"></audio>(Gochisousama)</span> - Obrigado pela comida. ---> Depois da refeição. <br>
+            すみません<span onclick="audio33()"><audio src="./audios/sumimasen.mp3" id="som33"></audio>(Sumimasen)</span> -
+            Desculpe/Licença. <br>
+            いってきます<span onclick="audio34()"><audio src="./audios/ittekimasu.mp3" id="som34"></audio>(Ittekimasu)</span>
+            - Estou saindo. ---> Se diz antes de sair de casa. <br>
+            いってらっしゃい<span onclick="audio35()"><audio src="./audios/iterashai.mp3"
+                    id="som35"></audio>(Itterasshai)</span> - Vá com Deus. ---> Se diz para pessoa que está
             saindo de casa. <br>
-            ただいま<span onclick="audio36()"><audio src="./audios/tadaima.mp3" id="som36"></audio>(Tadaima)</span> - Estou em casa ---> Se diz quando chega em casa. <br>
-            おかえりなさい<span onclick="audio37()"><audio src="./audios/okaerinasai.mp3" id="som37"></audio>(Okaerinasai)</span> - Bem vindo de volta --->
+            ただいま<span onclick="audio36()"><audio src="./audios/tadaima.mp3" id="som36"></audio>(Tadaima)</span> - Estou
+            em casa ---> Se diz quando chega em casa. <br>
+            おかえりなさい<span onclick="audio37()"><audio src="./audios/okaerinasai.mp3"
+                    id="som37"></audio>(Okaerinasai)</span> - Bem vindo de volta --->
             Se diz para a pessoa que chegou em casa. <br>
-            おつかれさまでした<span onclick="audio38()"><audio src="./audios/otsukaresamadeshita.mp3" id="som38"></audio>(Otsukaresamadeshita)</span> - Bom trabalho. <br>
-            いやね<span onclick="audio39()"><audio src="./audios/iyane.mp3" id="som39"></audio>(Iyane)</span> - Até logo. <br>
-            バイバイ<span onclick="audio40()"><audio src="./audios/byebye.mp3" id="som40"></audio>(bye bye)</span> - Tchauzinho.
+            おつかれさまでした<span onclick="audio38()"><audio src="./audios/otsukaresamadeshita.mp3"
+                    id="som38"></audio>(Otsukaresamadeshita)</span> - Bom trabalho. <br>
+            いやね<span onclick="audio39()"><audio src="./audios/iyane.mp3" id="som39"></audio>(Iyane)</span> - Até logo.
+            <br>
+            バイバイ<span onclick="audio40()"><audio src="./audios/byebye.mp3" id="som40"></audio>(bye bye)</span> -
+            Tchauzinho.
         </p>
     </div>
     <div class="aula5">
@@ -164,8 +202,9 @@
             é um presente afirmativo, se usa em ações ou estados existentes naquele
             exato momento. É igual o nosso "é/ser". <br>
             <br>
-            じゃありません<span onclick="audio42()"><audio src="./audios/jyarimasen.mp3" id="som42"></audio>(Jyaarimasen)</span>
-            é um presente negativo, se usa para negar ações ou estados 
+            じゃありません<span onclick="audio42()"><audio src="./audios/jyarimasen.mp3"
+                    id="som42"></audio>(Jyaarimasen)</span>
+            é um presente negativo, se usa para negar ações ou estados
             no presente. Sua tradução literal é "está errado/não é". <br>
             <br>
             そうです<span onclick="audio43()"><audio src="./audios/soudesu.mp3" id="som43"></audio>(Soudesu)</span>

@@ -12,69 +12,66 @@ body{
      'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
 
-.inicio{
-    max-width: 1200px;
-    margin: 0 auto;
-}
-
-.cabeçalho{
+.header {
+    height: 60px;
     width: 100%;
-    height: 90px;
     background-color: black;
-    border-bottom: #EE0000 5px solid;
-}
+  }
 
-.navegador ul li {
+  .icon {
+    margin-left: 45px;
     display: inline-block;
-}
+    color: #34495e;
+  }
 
-.navegador a{
-    text-decoration: none;
-    color: whitesmoke;
-    font-family: Verdana, Geneva, Tahoma, sans-serif; 
-} 
-
-.navegador{
-    float:right;
-}
-
-.titulo{
-    float: left;
-    color: #EE0000;
-    padding: 35px;
-    margin: 0px;
-}
-
-ul li {
-    display: inline-block;
-    border-radius: 4px;
-    margin: 0px;
-  
-    border: none;
-    color: red;
-    text-align: center;
-    font-size: 28px;
-    padding: 20px;
-    width: 200px;
-    transition: all 0.5s;
+  .openbtn {
+    font-size: 35px;
     cursor: pointer;
-    margin: 5px;
+    color: white;
+    padding: 10px 15px;
+    border: none;
   }
   
-ul li {
-    cursor: pointer;
-    display: inline-block;
-    position: relative;
-    transition: 0.5s;
-    margin: 0px;
-}
+  .sidebar {
+    height: 100%;
+    width: 0;
+    background-color: black;
+    position: fixed;
+    overflow-x: hidden;
+    transition: 0.3s;
+  }
+  
+  .sidebar a {
+    padding: 25px;
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    display: block;
+  }
+  
+  .sidebar a:hover {
+    color: white;
+    background-color: #999898;
+  }
+  
+  .sidebar .closebtn {
+    font-size: 37px;
+    margin-left: 60%;
+    text-align: center;
+  }
+
+  .sidebar .closebtn:hover {
+      color: white;
+      background-color: #999898;
+  }
+  
 
 h2{
     color: #EE0000;
 }
 
 .aula1{
-    margin-top: 150px;
+    margin-top: 100px;
     background-color: black;
     width: 80%;
     height: 440px;

@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Aula 2</title>
+    <link rel="stylesheet" href="./StyleCSS/aula2style.css">
+</head>
+
+<body>
+    <div class="sidebar" id="mySidebar">
+        <a href="#" class="closebtn" onclick="closeNav()">x</a>
+        <a href="perfil.html">Perfil</a>
+        <a href="aluno_aulas.html">Aulas</a>
+        <a href="aluno_avaliaçoes.html">Avaliações</a>
+        <a href="alfabetos_perfil.html">Alfabetos</a>
+        <a href="index.html">Sair</a>
+    </div>
+
+    <div class="header">
+        <a class="openbtn" onclick="openNav()">☰</a>
+    </div>
+
+    <div class="conteudo">
+        <div class="aula1">
+            <br>
+            <h2>Números.</h2> <br>
+            <p>
+                Unidades: <br>
+                <br>
+                0- ぜろ
+                <span onclick="audio1()"> <audio src="./audios/zero.mp3" id="som1"></audio>(zero)</span>
+                <br>
+                1- いち
+                <span onclick="audio2()"> <audio src="./audios/ichi.mp3" id="som2"></audio>(ichi)</span>
+                <br>
+                2- に
+                <span onclick="audio3()"> <audio src="./audios/ni.mp3" id="som3"></audio>(ni)</span>
+                <br>
+                3- さん
+                <span onclick="audio4()"> <audio src="./audios/san.mp3" id="som4"></audio>(san)</span>
+                <br>
+                4- よん　/　し
+                <span onclick="audio5()"> <audio src="./audios/yon.mp3" id="som5"></audio>(yon</span>
+                <span onclick="audio6()"> <audio src="./audios/shi.mp3" id="som6"></audio>/shi)</span>
+                <br>
+                5- ご
+                <span onclick="audio7()"> <audio src="./audios/go.mp3" id="som7"></audio>(go)</span>
+                <br>
+                6- ろく
+                <span onclick="audio8()"> <audio src="./audios/roku.mp3" id="som8"></audio>(roku)</span>
+                <br>
+                7- なな / しち
+                <span onclick="audio9()"> <audio src="./audios/nana.mp3" id="som9"></audio>(nana</span>
+                <span onclick="audio10()"> <audio src="./audios/shichi.mp3" id="som10"></audio>/shichi)</span>
+                <br>
+                8- はち
+                <span onclick="audio11()"> <audio src="./audios/hachi.mp3" id="som11"></audio>(hachi)</span>
+                <br>
+                9- きゅう　/ く
+                <span onclick="audio12()"> <audio src="./audios/kyuu.mp3" id="som12"></audio>(kyuu/ku)</span>
+                <br>
+                <br>
+                Dezenas: <br>
+                <br>
+                10- じゅう
+                <span onclick="audio13()"> <audio src="./audios/juu.mp3" id="som13"></audio>(juu)</span>
+                <br>
+                20- にじゅう
+                <span onclick="audio14()"> <audio src="./audios/nijuu.mp3" id="som14"></audio>(nijuu)</span>
+                <br> <br>
+                (obs: Como a casa decimal passou de 1 para 2, usou a unidade 2(ni) para sua demarcação,
+                a tradução literal seria dois dez, mas no japonês é o mesmo que vinte,
+                e assim segue com as outras casas de unidade (menos as unidades)). <br> <br>
+                30- さんじゅう
+                <span onclick="audio15()"> <audio src="./audios/sanjuu.mp3" id="som15"></audio>(sanjuu)</span>
+                <br>
+                40- よんじゅう
+                <span onclick="audio16()"> <audio src="./audios/yonjuu.mp3" id="som16"></audio>(yonjuu)</span>
+                <br>
+                50- ごじゅう
+                <span onclick="audio17()"> <audio src="./audios/gojuu.mp3" id="som17"></audio>(gojuu)</span>
+                <br>
+                23- にじゅうさん
+                <span onclick="audio18()"> <audio src="./audios/nijuusan.mp3" id="som18"></audio>(nijuusan)</span>
+                <br> <br>
+                (obs: Como uma unidade foi adicionada ele deve ser inclusa ao falar, a tradução
+                literal seria dois dez três, mas no japonês é o mesmo que vinte e três). <br>
+                <br> <br>
+                Centenas: <br>
+                <br>
+                100- ひゃく
+                <span onclick="audio19()"> <audio src="./audios/hyaku.mp3" id="som19"></audio>(hyaku)</span>
+                <br>
+                200- にひゅく
+                <span onclick="audio20()"> <audio src="./audios/nihyaku.mp3" id="som20"></audio>(nihyaku)</span>
+                <br> <br>
+                Mas há exceções por motivos de pronúncia, como por exemplo: <br>
+                <br>
+                300- さんびゃく
+                <span onclick="audio21()"> <audio src="./audios/sanbiyaku.mp3" id="som21"></audio>(sanbyaku)</span>
+                <br>
+                600- ろっぴゃく
+                <span onclick="audio22()"> <audio src="./audios/roppyaku.mp3" id="som22"></audio>(roppyaku)</span>
+                <br>
+                800- はっぴゃく
+                <span onclick="audio23()"> <audio src="./audios/happyaku.mp3" id="som23"></audio>(happyaku)</span>
+                <br> <br>
+                Milhares: <br>
+                <br>
+                1000- ぜん
+                <span onclick="audio24()"> <audio src="./audios/zen.mp3" id="som24"></audio>(zen)</span>
+                <br>
+                2000- にぜん
+                <span onclick="audio25()"> <audio src="./audios/nizen.mp3" id="som25"></audio>(nizen)</span>
+                <br>
+                8.000- はっせん
+                <span onclick="audio26()"> <audio src="./audios/hassen.mp3" id="som26"></audio>(hassen)</span>
+                *Exceção
+                <br> <br>
+                A partir do 10.000 se usa man no lugar do zen. <br>
+                <br>
+                10.000- まん
+                <span onclick="audio27()"> <audio src="./audios/man.mp3" id="som27"></audio>（man）</span>
+                <br>
+                20.000- にまん
+                <span onclick="audio28()"> <audio src="./audios/niman.mp3" id="som28"></audio>(niman)</span>
+                <br>
+                1.000.000- ひゃくまん
+                <span onclick="audio29()"> <audio src="./audios/hyakuman.mp3" id="som29"></audio>(hyakuman)</span>
+                <br>
+                Números negativos: <br>
+                <br>
+                Usa-se a palavra マイナス
+                <span onclick="audio30()"> <audio src="./audios/mainasu.mp3" id="som30"></audio>(mainasu)</span>
+                depois dos números para dizer que são negativas.
+                <br> <br>
+                -1--> いちマイナス
+                <span onclick="audio31()"> <audio src="./audios/ichimainasu.mp3" id="som31"></audio>(ichimainasu)</span>
+                <br>
+                -10--> じゅうマイナス
+                <span onclick="audio32()"> <audio src="./audios/juumainasu.mp3" id="som32"></audio>(juumainasu)</span>
+                <br> <br>
+                Números decimais:
+                <br> <br>
+                Ao falar o número 0,2 se fala "zero vírgula dois", já no japonês seria
+                "zero ponto dois" e a numeração como 0.2. Esse ponto se chama てん
+                <span onclick="audio33()"> <audio src="./audios/ten.mp3" id="som33"></audio>(ten)</span>
+                , aqui podemos ver alguns exemplos:
+                <br> <br>
+                0.2--> ぜろてんに
+                <span onclick="audio34()"> <audio src="./audios/zerotenni.mp3" id="som34"></audio>(zerotenni)</span>
+                <br>
+                0.48--> ぜろてんよんじゅうはち
+                <span onclick="audio35()"> <audio src="./audios/zerotenyon.mp3" id="som35"></audio>(zerotenyonjuuhachi)</span>
+                <br>
+                0.0026--> ぜろてんぜろぜろにじゅうろく
+                <span onclick="audio36()"> <audio src="./audios/zerotenzero.mp3" id="som36"></audio>(zerotenzerozeronijuuroku)</span>
+            </p>
+        </div>
+    </div>
+</body>
+
+</html>
+<script src="./JavaScript/aula2JavaScript.js"></script>

@@ -1,0 +1,176 @@
+body {
+    margin: 0;
+    background-image: url("../Imagens/japanfundo.jpg");
+    background-position: center top; 
+    background-size: cover;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular',
+    'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  
+  .container {
+    text-align: center;
+    width: 90%;
+    margin: auto;
+  }
+  
+  /* aqui começa o cabeçalho */
+  
+  .header {
+    height: 60px;
+    width: 100%;
+    background-color: black;
+  }
+  /* aqui termina o cabeçalho */
+  
+  /* aqui começa o gráfico */
+  .icon {
+    margin-left: 45px;
+    display: inline-block;
+    color: #34495e;
+  }
+  
+  .main {
+    transition: 0.3s;
+  }
+  
+  .edu {
+    display: inline-block;
+    width: 20%;
+    margin: 5px;
+    margin-bottom: 25px;
+    border-radius: 7px;
+    height: 130px;
+    color: #ffffff;
+    padding: 0px;
+    background-color: black;
+  }
+
+  .edu h1{
+    margin-top: 45px;
+  }
+
+  .curso{
+    background-color: #EE0000;
+    border: #EE0000;
+    width: 20%;
+    height: 130px;
+    border-radius: 7px;
+    color: #ffffff;
+    cursor: pointer;
+  }
+
+  .curso:hover{
+    opacity: 0.8;
+  }
+
+  .button_aula1 {
+    margin-right: 70px;
+    margin-top: 0px;
+    width: 20%;
+    height: 130px;
+    background-color: #EE0000;
+    border: #EE0000;
+    color: #ffffff;
+    border-radius: 7px;
+    cursor: pointer;
+  }
+
+  .button_aula1:hover{
+    opacity: 0.8;
+  }
+
+  .button_aula2{
+    margin-top: 50px;
+    display: none;
+  }
+
+  .button_aula3{
+    display: none;
+    margin-left: 70px;
+    margin-top: 50px;
+  }
+
+  .button_aula4{
+    display: none;
+    margin-top: 45px;
+    margin-right: 70px;
+  }
+
+  .button_aula5{
+    display: none;
+    margin-top: 45px;
+  }
+
+  .button_aula6{
+    display: none;
+    margin-top: 45px;
+    margin-left: 70px;
+  }
+
+  .div_aula2 {
+    margin-top: 50px;
+  }
+  
+  .div_aula3 {
+    margin-left: 70px;
+    margin-top: 50px;
+  }
+
+  .div_aula4 {
+    margin-top: 45px;
+    margin-right: 70px;
+  }
+
+  .div_aula5 {
+    margin-top: 45px;
+  }
+
+  .div_aula6 {
+    margin-top: 45px;
+    margin-left: 70px;
+  }
+
+  /* aqui termina o gráfico */
+  
+  /* SIDEBAR */
+  .openbtn {
+    font-size: 35px;
+    cursor: pointer;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+  }
+  
+  .sidebar {
+    height: 100%;
+    width: 0;
+    background-color: black;
+    position: fixed;
+    overflow-x: hidden;
+    transition: 0.3s;
+  }
+  
+  .sidebar a {
+    padding: 25px;
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    display: block;
+  }
+  
+  .sidebar a:hover {
+    color: white;
+    background-color: #999898;
+  }
+  
+  .sidebar .closebtn {
+    font-size: 37px;
+    margin-left: 60%;
+    text-align: center;
+  }
+
+  .sidebar .closebtn:hover {
+      color: white;
+      background-color: #999898;
+  }
+  

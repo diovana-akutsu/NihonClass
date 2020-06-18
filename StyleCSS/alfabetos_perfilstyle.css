@@ -1,0 +1,174 @@
+html{
+    background-image: url("../Imagens/japanfundo.jpg"); /*deixar uma imagem de fundo, fazendo 
+    as divs se mecherem sem mecher na imagem de fundo.*/
+    background-position: center top; /*centraliza a imagem*/
+    background-repeat: no-repeat; /*Não deixa que a imagem se repita*/
+    background-size: cover; /*A imagem é renderizada, preservando sua proporção*/
+}
+
+.container {
+    text-align: center;
+    width: 90%;
+    margin: auto;
+  }
+  
+  /* aqui começa o cabeçalho */
+  
+  .header {
+    height: 60px;
+    width: 100%;
+    background-color: black;
+  }
+  /* aqui termina o cabeçalho */
+  
+  /* aqui começa o gráfico */
+  .icon {
+    margin-left: 45px;
+    display: inline-block;
+    color: #34495e;
+  }
+  
+  .main {
+    transition: 0.3s;
+  }
+
+.openbtn {
+    font-size: 35px;
+    cursor: pointer;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+  }
+  
+  .sidebar {
+    height: 100%;
+    width: 0;
+    background-color: black;
+    position: fixed;
+    overflow-x: hidden;
+    transition: 0.3s;
+  }
+  
+  .sidebar a {
+    padding: 25px;
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    display: block;
+  }
+  
+  .sidebar a:hover {
+    color: white;
+    background-color: #999898;
+  }
+  
+  .sidebar .closebtn {
+    font-size: 37px;
+    margin-left: 60%;
+    text-align: center;
+  }
+
+  .sidebar .closebtn:hover {
+      color: white;
+      background-color: #999898;
+  }
+
+body{
+    margin: 0px;
+}
+
+
+
+.container{
+    background-color: black;
+    height: 500px;
+    width: 1220px;
+    margin-top: 70px;
+    margin-right: 50px;
+    margin-left: 70px;
+    border-radius: 25px 25px;
+}
+
+table{
+    color: white;
+    border: #EE0000 1px solid;
+    height: 400px;
+    width: 850px;
+    margin-left: 180px;
+}
+
+td{
+    height: 40px;
+    width: 40px;
+    text-align: center;
+}
+
+h1{
+    color: white;
+}
+
+.container2{
+    background-color: black;
+    height: 500px;
+    width: 1220px;
+    margin-top: 70px;
+    margin-right: 50px;
+    margin-left: 70px;
+    border-radius: 25px 25px;
+}
+
+.container2 h1{
+    color: white;
+    margin-left: 420px;
+}
+
+button{
+    margin-top: 70px;
+    margin-left: 540px;
+    background-color: #EE0000;
+    padding: 11px;
+    border: #EE0000;
+    width: 300px;
+    padding: 20px;
+    border-radius: 25px 25px;
+}
+
+button:hover {
+    opacity: 0.7;
+  } 
+
+button a{
+    text-decoration: none;
+    color: whitesmoke;
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+}
+
+.container3{
+  background-color: black;
+  height: 500px;
+  width: 1220px;
+  margin-top: 70px;
+  margin-right: 50px;
+  margin-left: 70px;
+  border-radius: 25px 25px;
+}
+
+.container3 h1{
+  color: white;
+  margin-left: 300px;
+}
+
+.container4{
+  background-color: black;
+  height: 500px;
+  width: 1220px;
+  margin-top: 70px;
+  margin-right: 50px;
+  margin-left: 70px;
+  border-radius: 25px 25px;
+}
+
+.container4 h1{
+  color: white;
+  margin-left: 300px;
+}

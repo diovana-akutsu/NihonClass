@@ -151,31 +151,3 @@ function audio35(){
 function audio36(){
     som36.play();
 }
-
-function audio37(){
-    som37.play();
-}
-
-function audio38(){
-    som38.play();
-}
-
-function audio39(){
-    som39.play();
-}
-
-function audio40(){
-    som40.play();
-}
-
-function audio41(){
-    som41.play();
-}
-
-function audio42(){
-    som42.play();
-}
-
-function audio43(){
-    som43.play();
-}
