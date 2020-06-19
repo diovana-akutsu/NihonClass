@@ -118,6 +118,11 @@ button a{
 
 .botao2 a{
     color: #EE0000;
+    text-decoration: none;
+}
+
+.botao2 a:hover{
+    color: white;
 }
 
 input{

@@ -30,12 +30,13 @@
         <h1>Login</h1>
         <form id="form_login" method="post" onsubmit="return entrar()">
             <input placeholder="E-mail" id="valor_login" name="login"> <br>
-            <input placeholder="Senha" id="valor_senha" name="senha" type="password"> <br>
+            <input placeholder="Senha" id="valor_senha" name="senha" type="password"><br>
             <br>
+            <div class="aviso"><b>E-mail ou senha incorretos</b></div>
             <button class="botao1"><b>Entrar</b></button><br>
             <br>
             <span><b>Caso ainda não seja aluno clique em</b></span>
-            <button class="botao2"><a href="cadastro.html"><b>Cadastre-se</b></a></button>
+            <b class="botao2"><a href="cadastro.html">Cadastre-se</a></b>
         </form>
     </div>
     <div class="img_login"></div>
@@ -62,6 +63,7 @@
                 });
 
             } else {
+                aviso.style.display = "block";
 
                 console.log('Erro de login!');
 

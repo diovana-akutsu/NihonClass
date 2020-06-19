@@ -25,24 +25,42 @@
         </div>
     </div>
     <div class="img_cadastro"></div>
-    <div class="cadastro_curso">
+    <form class="cadastro_curso" onsubmit="return false">
         <br>
         <br>
         <h1>Cadastro</h1>
         <input placeholder="Nome completo" id="valor_nome"> <br>
-        <input placeholder="E-mail" id="valor_login"> <br>
-        <input placeholder="Senha" id="valor_senha"> <br>
+        <input placeholder="E-mail" id="valor_email"> <br>
+        <input placeholder="Senha" id="valor_senha" type="password"> <br>
         <br>
-        <button onclick="entrar()" class="botao1"><b>Cadastre-se</b></button> <br>
+        <button class="botao1" onclick="cadastrar()"><b>Cadastre-se</b></button> <br>
         <br>
         <span><b>Caso já seja aluno clique em</b></span>
-        <button class="botao2"><a href="login.html"><b>Login</b></a></button>
-    </div>
+        <b class="botao2"><a href="login.html">Login</a></b>
+    </form>
 </body>
 
 </html>
 <script>
-    function entrar() {
-        window.location.href = "aulas2.html";
+    function cadastrar() {
+        var nome = valor_nome.value;
+        var email = valor_email.value;
+        var senha = valor_senha.value;
+        valor_senha.style.border = "";
+        valor_email.style.border = "";
+
+        if(email.indexOf('@') > -1 && email.indexOf('.com') > -1){
+
+            if(senha.length >= 8){
+                window.location.href = "perfil.html";
+            }else{
+                valor_senha.style.border = "#EE0000 2px solid";
+                valor_senha.style.background = "#ffe4c4";
+            }
+
+        }else{
+            valor_email.style.border = "#EE0000 2px solid";
+            valor_email.style.background = "#ffe4c4";
+        }
     }
 </script>
