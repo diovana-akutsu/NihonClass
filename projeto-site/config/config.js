@@ -8,11 +8,11 @@ module.exports = {
     storage: ":memory:"
   },
   production: {
-    username: 'adminlocal',
-    password: 'Ninth0909!',
-    database: 'ProjetoNith',
-    host: 'ninthgroup.database.windows.net',
-    dialect: 'mssql',
+    username: 'root',
+    password: 'bandtec',
+    database: 'NihonClass',
+    host: 'localhost',
+    dialect: 'mysql',
     xuse_env_variable: 'DATABASE_URL',
     dialectOptions: {
       options: {
