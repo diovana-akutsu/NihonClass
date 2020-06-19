@@ -130,3 +130,13 @@ input{
     width: 330px;
 }
 
+.aviso_senha{
+    display: none;
+    color: #EE0000;
+}
+
+.aviso_email{
+    display: none;
+    color: #EE0000;
+}
+
