@@ -56,14 +56,14 @@
 
                 resposta.json().then(json => {
 
-                    sessionStorage.login_usuario_meuapp = json.login_usuario;
-                    sessionStorage.nome_usuario_meuapp = json.nome_usuario;
+                    sessionStorage.ra = json.ra;
+                    sessionStorage.nome = json.nome;
                     
                     window.location.href = 'perfil.html';
                 });
 
             } else {
-                aviso.style.display = "block";
+                // aviso.style.display = "block";
 
                 console.log('Erro de login!');
 

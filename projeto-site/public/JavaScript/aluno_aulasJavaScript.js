@@ -10,6 +10,9 @@ function openNav() {
 
 function abrir1(){
     window.location.href = "aulas1.html";
+
+    sessionStorage.aula = 1;
+    
 }
 
 function abrir2(){

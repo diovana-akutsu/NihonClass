@@ -256,8 +256,8 @@
 <script>
     var ganhou = 0;
 
-    // setInterval(function () {
-    // pontos.innerHTML = --ganhou;},15000);
+     setInterval(function () {
+     pontos.innerHTML = --ganhou;},15000);
 
     function resultado1() {
         pontos.innerHTML = --ganhou;
@@ -495,7 +495,26 @@
 
         pontos.innerHTML = ++ganhou;
         pergunta21.style.display = "none";
-        window.location.href = "aulas1.html";
+
+        var ra = sessionStorage.ra;
+
+        //usar a rota
+        fetch(`/usuarios/pontuacao/${ra}/${sessionStorage.aula}/${ganhou}`, {
+            method: "POST",
+        }).then(function (response) {
+
+            if (response.ok) {
+
+                // window.location.href = 'aluno_aulas.html';
+                console.log(`Linha inserida com sucesso`);
+                alert('funcionou');
+
+            } else {
+
+                console.log('Erro ao inserir a linha!');
+                alert('ñ funcionou');
+            }
+        });
     }
     function resultado66() {
         pontos.innerHTML = --ganhou;

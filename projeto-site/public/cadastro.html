@@ -1,15 +1,16 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Cadastro</title>
+    <title>Página com exemplo de Cadastro de usuário</title>
     <link rel="stylesheet" href="./StyleCSS/stylecadastro.css">
 </head>
 
 <body>
+
     <div class="cabeçalho">
         <div class="inicio">
             <div>
@@ -24,57 +25,36 @@
             </div>
         </div>
     </div>
+
     <div class="img_cadastro"></div>
-    <!-- <form class="cadastro_curso" onsubmit="return false">
+
+    <div class="cadastro_curso">
         <br>
         <br>
-        <h1>Cadastro</h1>
-        <input placeholder="Nome completo" id="valor_nome" > <br>
-        <input placeholder="E-mail" id="valor_email"> <br>
-        <input placeholder="Senha" id="valor_senha" type="password"> <br><br>
-        <div class="aviso_email">E-mail deve ter @ e .com</div>
-        <div class="aviso_senha">Senha deve conter mais de 8 caracteres</div>
-        <button class="botao1" onclick="cadastrar()"><b>Cadastre-se</b></button> <br>
+        <h1>Cadastre-se</h1>
+        <form id="form_cadastro" method="post" onsubmit="return cadastrar()">
+            <input type="text" name="nome" placeholder="Nome completo">
+            <br>
+            <input type="text" name="login" placeholder="E-mail">
+            <br>
+            <input type="password" name="senha" placeholder="Senha">
+            <br>
+            <button id="btn_entrar" class="botao1"><b>Cadastrar</b></button>
+        </form>
         <br>
-        <span><b>Caso já seja aluno clique em</b></span>
-        <b class="botao2"><a href="login.html">Login</a></b>
-    </form> -->
-    <form id="form_cadastro" method="post" onsubmit="return cadastrar()">
-        Nome: <input type="text" name="nome" required minlength="4">
-        <br><br>
-        Usuário: <input type="text" name="login" required minlength="4">
-        <br><br>
-        Senha: <input type="password" name="senha" required minlength="4">
-        <br><br><br>
-        <button id="btn_entrar">Cadastrar</button>
-    
-    </form>
+        <b class="botao2">Caso já seja aluno clique em <a href="login.html">Login</a></b>
+    </div>
+
+    <img src="aguarde2.gif" id="img_aguarde" style="display: none;" width="100px">
+
+    <div id="div_erro" style="background-color: sandybrown; color: maroon; display: none;">
+        Erro no cadastro
+    </div>
 
 </body>
 
 </html>
 <script>
-    // function cadastrar() {
-    //     var nome = valor_nome.value;
-    //     var email = valor_email.value;
-    //     var senha = valor_senha.value;
-    //     valor_senha.style.border = "";
-    //     valor_email.style.border = "";
-
-    //     if(email.indexOf('@') > -1 && email.indexOf('.com') > -1){
-
-    //         if(senha.length >= 8){
-    //             window.location.href = "perfil.html";
-    //         }else{
-    //             valor_senha.style.border = "#EE0000 2px solid";
-    //             valor_senha.style.background = "#ffe4c4";
-    //         }
-
-    //     }else{
-    //         valor_email.style.border = "#EE0000 2px solid";
-    //         valor_email.style.background = "#ffe4c4";
-    //     }
-    // }
 
     function cadastrar() {
         aguardar();
@@ -101,5 +81,16 @@
         return false;
     }
 
+    function aguardar() {
+        btn_entrar.disabled = true;
+        img_aguarde.style.display = 'block';
+        div_erro.style.display = 'none';
+    }
+
+    function finalizar_aguardar() {
+        btn_entrar.disabled = false;
+        img_aguarde.style.display = 'none';
+        div_erro.style.display = 'block';
+    }
 
 </script>
