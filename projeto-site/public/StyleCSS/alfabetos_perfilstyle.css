@@ -174,3 +174,7 @@ button a{
   color: white;
   margin-left: 300px;
 }
+
+span:hover{
+  cursor: pointer;
+}
